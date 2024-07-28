@@ -4,7 +4,8 @@ import { HandImage } from "../icons";
 import { useSearchParams } from "next/navigation";
 export default function Page() {
   const searchParams = useSearchParams();
-  const score = searchParams.get("score");
+  const scoreParam = searchParams.get("score");
+  const score = scoreParam ? Number(scoreParam) : 0;
   return (
     <section className="section">
       <div className="section__container">
@@ -13,7 +14,7 @@ export default function Page() {
         </div>
         <div className="section__content">
           <span>Total score:</span>
-          <h1>${score ? Number(score).toLocaleString("en-US") : 0}</h1>
+          <h1>${score.toLocaleString("en-US")}</h1>
           <Link className="btn" href="/">
             Try again
           </Link>
