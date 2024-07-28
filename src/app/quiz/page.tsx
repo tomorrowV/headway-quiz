@@ -21,13 +21,13 @@ const QuizPage = () => {
     if (isAnswerCorrect !== null) {
       const timeout = setTimeout(() => {
         if (isAnswerCorrect === false) {
-          router.push(`/end?score=${score}`);
+          router.push(`/final?score=${score}`);
         } else if (currentQuestionIndex < questionsData.questions.length - 1) {
           setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
           setSelectedAnswerId(null);
           setIsAnswerCorrect(null);
         } else {
-          router.push(`/end?score=${score}`);
+          router.push(`/final?score=${score}`);
         }
       }, 2000);
 

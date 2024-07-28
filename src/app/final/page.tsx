@@ -1,11 +1,15 @@
+// Import necessary modules
 "use client";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { HandImage } from "../icons";
-import { useSearchParams } from "next/navigation";
-export default function Page() {
+import { Suspense } from "react";
+
+function PageContent() {
   const searchParams = useSearchParams();
   const scoreParam = searchParams.get("score");
   const score = scoreParam ? Number(scoreParam) : 0;
+
   return (
     <section className="section">
       <div className="section__container">
@@ -21,5 +25,13 @@ export default function Page() {
         </div>
       </div>
     </section>
+  );
+}
+
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <PageContent />
+    </Suspense>
   );
 }
