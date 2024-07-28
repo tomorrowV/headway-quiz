@@ -148,6 +148,9 @@ a {
     }
   }
   &__content {
+    @media (max-width: 576px) {
+      width: 100%;
+    }
     h1 {
       font-size: 56px;
       font-weight: 600;

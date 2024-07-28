@@ -30,7 +30,7 @@ function PageContent() {
 
 export default function Page() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div>Loading</div>}>
       <PageContent />
     </Suspense>
   );
