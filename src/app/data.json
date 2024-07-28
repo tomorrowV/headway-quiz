@@ -1,0 +1,160 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Ukrainian city is known for its underground catacombs, one of the longest in the world?",
+      "answers": [
+        { "id": 1, "text": "Lviv" },
+        { "id": 2, "text": "Odesa" },
+        { "id": 3, "text": "Kyiv" },
+        { "id": 4, "text": "Kharkiv" }
+      ],
+      "correct": [2],
+      "prize": 500,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 2,
+      "question": "What is the name of the traditional Ukrainian beet soup often served with sour cream?",
+      "answers": [
+        { "id": 5, "text": "Borscht" },
+        { "id": 6, "text": "Solyanka" },
+        { "id": 7, "text": "Okroshka" },
+        { "id": 8, "text": "Kapusniak" }
+      ],
+      "correct": [5],
+      "prize": 1000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 3,
+      "question": "In which city can you find the Motherland Monument, one of the tallest statues in the world?",
+      "answers": [
+        { "id": 9, "text": "Kyiv" },
+        { "id": 10, "text": "Dnipro" },
+        { "id": 11, "text": "Zaporizhzhia" },
+        { "id": 12, "text": "Chernihiv" }
+      ],
+      "correct": [9],
+      "prize": 2000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 4,
+      "question": "Which famous Ukrainian festival celebrates the diversity of Ukrainian folk music and dance?",
+      "answers": [
+        { "id": 13, "text": "Koktebel Jazz Festival" },
+        { "id": 14, "text": "Kraina Mriy" },
+        { "id": 15, "text": "Atlas Weekend" },
+        { "id": 16, "text": "Sorochinsky Fair" }
+      ],
+      "correct": [14],
+      "prize": 4000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 5,
+      "question": "Which Ukrainian city was formerly known as Lemberg under Austrian rule?",
+      "answers": [
+        { "id": 17, "text": "Lviv" },
+        { "id": 18, "text": "Ivano-Frankivsk" },
+        { "id": 19, "text": "Chernivtsi" },
+        { "id": 20, "text": "Ternopil" }
+      ],
+      "correct": [17],
+      "prize": 8000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 6,
+      "question": "Which traditional Ukrainian Easter bread is often decorated with intricate designs?",
+      "answers": [
+        { "id": 21, "text": "Paska" },
+        { "id": 22, "text": "Korovai" },
+        { "id": 23, "text": "Holubtsi" },
+        { "id": 24, "text": "Varenyky" }
+      ],
+      "correct": [21],
+      "prize": 16000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 7,
+      "question": "What is the name of the Ukrainian traditional embroidered shirt?",
+      "answers": [
+        { "id": 25, "text": "Kimono" },
+        { "id": 26, "text": "Vyshyvanka" },
+        { "id": 27, "text": "Sarafan" },
+        { "id": 28, "text": "Poncho" }
+      ],
+      "correct": [26],
+      "prize": 32000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 8,
+      "question": "Which mountain range runs through Western Ukraine?",
+      "answers": [
+        { "id": 29, "text": "Alps" },
+        { "id": 30, "text": "Carpathians" },
+        { "id": 31, "text": "Caucasus" },
+        { "id": 32, "text": "Rockies" }
+      ],
+      "correct": [30],
+      "prize": 64000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 9,
+      "question": "Which Ukrainian city is famous for its Potemkin Stairs?",
+      "answers": [
+        { "id": 33, "text": "Kyiv" },
+        { "id": 34, "text": "Odesa" },
+        { "id": 35, "text": "Lviv" },
+        { "id": 36, "text": "Zaporizhzhia" }
+      ],
+      "correct": [34],
+      "prize": 125000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 10,
+      "question": "What is the name of the traditional Ukrainian wind instrument often made from wood?",
+      "answers": [
+        { "id": 37, "text": "Balalaika" },
+        { "id": 38, "text": "Bandura" },
+        { "id": 39, "text": "Trembita" },
+        { "id": 40, "text": "Tsymbaly" }
+      ],
+      "correct": [39],
+      "prize": 250000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 11,
+      "question": "Which UNESCO World Heritage site in Kyiv is known for its stunning mosaics and frescoes?",
+      "answers": [
+        { "id": 41, "text": "St. Sophia Cathedral" },
+        { "id": 42, "text": "Kievo-Pechersk Lavra" },
+        { "id": 43, "text": "St. Andrew's Church" },
+        { "id": 44, "text": "Golden Gate" }
+      ],
+      "correct": [41],
+      "prize": 500000,
+      "answeredCorrectly": false
+    },
+    {
+      "id": 12,
+      "question": "What is the Ukrainian national anthem called?",
+      "answers": [
+        { "id": 45, "text": "Shche ne vmerla Ukraina" },
+        { "id": 46, "text": "Bozhe Velykyi, Yedynyi" },
+        { "id": 47, "text": "Slava Ukraini" },
+        { "id": 48, "text": "Molytva za Ukrayinu" }
+      ],
+      "correct": [45],
+      "prize": 1000000,
+      "answeredCorrectly": false
+    }
+  ]
+}
